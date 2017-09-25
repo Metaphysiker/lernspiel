@@ -1,0 +1,61 @@
+<div class="jumbotron text-justify">
+  <h1 class="display-3">Zwei ethische Theorien</h1>
+  <br>
+  <p>
+    In der Ethik gibt es zwei Theorien, die sehr bekannt sind. Eine von diesen Theorien heisst <b>Konsequentialismus</b> und die andere nennt sich <b>Deontologie</b>.
+  </p>
+  <p>
+    Wir schauen uns zuerst den <b>Konsequentialismus</b> an. Im Konsequentialismus werden Handlungen im Bezug auf <b>die Folgen</b> beurteilt, die eine Handlung nach sich zieht.
+    Eine Handlung ist gut, wenn sie gute Folgen hat und eine Handlung ist schlecht, wenn sie schlechte Folgen hat. Eine Frage in der Ethik ist, was man genau unter <b>guten</b> und <b>schlechten</b>
+    Folgen verstehen soll. Der <b>Utilitarismus</b>, eine bekannte konsequentialistische Position, argumentiert, dass eine Handlung gut ist, wenn sie <b>viel Glück bringt</b> und dass
+    eine Handlung schlecht ist, wenn sie <b>viel Leid produziert</b>. Falls man also vor einer Entscheidung steht, dann rät der Utilitarismus, dass man sich so entscheiden soll,
+    dass entweder viele Menschen glücklich werden oder dass möglichst wenige Menschen leiden müssen.
+  </p>
+</div>
+
+<div class="alert alert-info">
+    <strong>Aufgabe:</strong> Überlege dir, welche von den folgenden Handlungen, der <b>Utilitarist</b> als gut oder schlecht beurteilen würde.
+</div>
+<% i = 1 %>
+<% @gutschlecht.each do |array| %>
+    <div id="<%= i %>">
+    <div class="panel panel-default">
+      <div class="panel-heading"><%= array[0] %> </div>
+      <div class="panel-body">
+        <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="good" name="<%= i %>">Gut</label>
+        <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="bad" name="<%= i %>">Schlecht</label>
+      </div>
+      <div class="alert alert-warning hidden" role="alert">
+        <%= array[2] %>
+      </div>
+    </div>
+    </div>
+    <% i = i + 1 %>
+<% end %>
+
+<%= link_to "Zur nächsten Übung", ethics_path(2), class: "btn btn-primary btn-lg" %>
+
+
+<script>
+    $(document).ready(function () {
+        $('.radio-inline').on('click', function () {
+            var number = $(this).attr("name");
+            var value = $("input[name='" + number + "']:checked").attr("value");
+            var rightanswer = $(this).attr("correctanswer");
+
+            if (value == rightanswer) {
+                console.log("RIGHT!");
+
+                $(this).parent().parent().removeClass().addClass("panel panel-success");
+                $(this).parent().parent().children(".alert").addClass("hidden");
+
+            } else {
+                console.log("FALSE!");
+
+                $(this).parent().parent().removeClass().addClass("panel panel-danger");
+                $(this).parent().parent().children(".alert").removeClass("hidden");
+            }
+
+        })
+    });
+</script>

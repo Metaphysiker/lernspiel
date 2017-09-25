@@ -1,1 +1,46 @@
-Welche Probleme wurden auf der letzten Seite genannt?
+<div class="alert alert-info">
+  <strong>Aufgabe:</strong> In der vorherigen Seite wurden 3 Probleme des Konsequentialismus' genannt. Welche 3 waren das?
+</div>
+
+<% i = 0 %>
+<ul class="list-group">
+  <% @problems.each do |problem| %>
+      <li class="list-group-item">
+        <div class="checkbox">
+          <label><input type="checkbox" value="<%= i %>"><%= problem %></label>
+        </div>
+      </li>
+      <% i = i + 1 %>
+  <% end %>
+</ul>
+
+<div class="alert alert-danger hidden">
+  <strong>Nicht alle Antworten sind richtig!</strong> Versuche es erneut!
+</div>
+
+<div class="alert alert-success hidden">
+  <strong>Richtig!</strong> Gehe zur nächsten Aufgabe! <%= link_to "Zur nächsten Übung", ethics_path(4), class: "btn btn-primary btn-md" %>
+</div>
+
+<button type="button" id="checkresult" class="btn btn-primary">Auswahl überprüfen</button>
+
+<script>
+    $(document).ready(function() {
+        $("#checkresult").click(function(event){
+            event.preventDefault();
+            var result = $('input:checked').map(function(){
+                return $(this).val();
+            });
+            var result = result.get();
+            console.log(result.toString() == ["2", "3", "6"].toString());
+            if(result.toString() == ["2", "3", "6"].toString()){
+                $('.alert-success').removeClass('hidden');
+                $('.alert-danger').addClass('hidden');
+            } else {
+                $('.alert-danger').removeClass('hidden');
+                $('.alert-success').addClass('hidden');
+            };
+
+        });
+    });
+</script>

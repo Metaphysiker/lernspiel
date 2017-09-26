@@ -4,9 +4,8 @@
     <list default="true" id="365217fa-669b-42fc-9582-efc19dbf62aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_0.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_0.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_3.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_3.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="courses_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/courses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+            <state relative-caret-position="343">
+              <caret line="32" column="213" lean-forward="false" selection-start-line="32" selection-start-column="213" selection-end-line="32" selection-end-column="213" />
               <folding />
             </state>
           </provider>
@@ -79,8 +78,8 @@
       <file leaf-file-name="_1.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_1.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -89,18 +88,8 @@
       <file leaf-file-name="_3.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_3.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="357">
               <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_4.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -119,8 +108,8 @@
       <file leaf-file-name="_2.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="123" lean-forward="false" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
+            <state relative-caret-position="493">
+              <caret line="29" column="132" lean-forward="true" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
               <folding />
             </state>
           </provider>
@@ -131,6 +120,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_4.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -172,9 +171,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/courses/ethics/_0.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/courses/ethics/_3.html.erb" />
         <option value="$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/courses_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/courses/ethics/_3.html.erb" />
         <option value="$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb" />
       </list>
     </option>
@@ -455,12 +454,12 @@
       <workItem from="1506185712308" duration="4704000" />
       <workItem from="1506232120156" duration="5887000" />
       <workItem from="1506265149019" duration="13758000" />
-      <workItem from="1506315767727" duration="25272000" />
+      <workItem from="1506315767727" duration="31293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55557000" />
+    <option name="totallyTimeSpent" value="61578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="0" width="1892" height="1027" extended-state="0" />
@@ -849,22 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="123" lean-forward="false" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/courses_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_0.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -875,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_3.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="357">
           <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
           <folding />
         </state>
@@ -883,16 +866,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_1.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="132" lean-forward="true" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/courses_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="32" column="213" lean-forward="false" selection-start-line="32" selection-start-column="213" selection-end-line="32" selection-end-column="213" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="476">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
       </provider>

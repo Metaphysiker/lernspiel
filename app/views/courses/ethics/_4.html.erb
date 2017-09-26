@@ -1,30 +1,29 @@
 <div class="jumbotron text-justify">
-  <h1 class="display-3">Zwei ethische Theorien</h1>
+  <h1 class="display-3">Deontologie - eine Alternative?</h1>
   <br>
   <p>
-    Die <b>Deontologie</b> unterscheidet sich vom Konsequentialismus darin, dass sie eine Handlung nicht danach beurteilt, welche Folgen sie hat.
-
+    Die <b>Deontologie</b> unterscheidet sich vom Konsequentialismus darin, dass sie eine Handlung nicht danach beurteilt, welche Folgen sie hat,
+    sondern nach der Art der Handlung selbst.
   </p>
   <p>
-    Wir schauen uns zuerst den <b>Konsequentialismus</b> an. Im Konsequentialismus werden Handlungen im Bezug auf <b>die Folgen</b> beurteilt, die eine Handlung nach sich zieht.
-    Eine Handlung ist gut, wenn sie gute Folgen hat und eine Handlung ist schlecht, wenn sie schlechte Folgen hat. Eine Frage in der Ethik ist, was man genau unter <b>guten</b> und <b>schlechten</b>
-    Folgen verstehen soll. Der <b>Utilitarismus</b>, eine bekannte konsequentialistische Position, argumentiert, dass eine Handlung gut ist, wenn sie <b>viel Glück bringt</b> und dass
-    eine Handlung schlecht ist, wenn sie <b>viel Leid produziert</b>. Falls man also vor einer Entscheidung steht, dann rät der Utilitarismus, dass man sich so entscheiden soll,
-    dass entweder viele Menschen glücklich werden oder dass möglichst wenige Menschen leiden müssen.
+    Viele Menschen sind geneigt, gewisse Handlungen als gut oder schlecht zu beurteilen, <b>unabhängig von den Folgen</b>, die sie nach sich ziehen.
+    Wir erwarten von unseren Freunden, dass sie ihre Versprechen halten und von unseren Polizisten, dass sie nicht korrupt sind.
+
+
   </p>
 </div>
 
 <div class="alert alert-info">
-  <strong>Aufgabe:</strong> Überlege dir, welche von den folgenden Handlungen, der <b>Utilitarist</b> als gut oder schlecht beurteilen würde.
+  <strong>Aufgabe:</strong> Überlege dir, welche von den folgenden Handlungen im Sinne des <b>Utilitarismus'</b> sind und welche im Sinne der <b>Deontologie</b>.
 </div>
 <% i = 1 %>
-<% @gutschlecht.each do |array| %>
+<% @deontvsutil.each do |array| %>
     <div id="<%= i %>">
       <div class="panel panel-default">
         <div class="panel-heading"><%= array[0] %> </div>
         <div class="panel-body">
-          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="good" name="<%= i %>">Gut</label>
-          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="bad" name="<%= i %>">Schlecht</label>
+          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="ut" name="<%= i %>">Utilitarismus</label>
+          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="deon" name="<%= i %>">Deontologie</label>
         </div>
         <div class="alert alert-warning hidden" role="alert">
           <%= array[2] %>

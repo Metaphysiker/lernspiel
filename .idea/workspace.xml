@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="365217fa-669b-42fc-9582-efc19dbf62aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -79,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_1.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -109,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="132" lean-forward="true" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+              <caret line="29" column="132" lean-forward="false" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
               <folding />
             </state>
           </provider>
@@ -128,8 +126,8 @@
       <file leaf-file-name="_4.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -185,8 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="width" value="1892" />
+    <option name="x" value="-197" />
+    <option name="y" value="269" />
+    <option name="width" value="1467" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -454,18 +453,18 @@
       <workItem from="1506185712308" duration="4704000" />
       <workItem from="1506232120156" duration="5887000" />
       <workItem from="1506265149019" duration="13758000" />
-      <workItem from="1506315767727" duration="31293000" />
+      <workItem from="1506315767727" duration="33053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61578000" />
+    <option name="totallyTimeSpent" value="63338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="0" width="1892" height="1027" extended-state="0" />
+    <frame x="-197" y="269" width="1467" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26389867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -867,7 +866,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_1.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -875,7 +874,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="132" lean-forward="true" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+          <caret line="29" column="132" lean-forward="false" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
           <folding />
         </state>
       </provider>
@@ -890,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_4.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>

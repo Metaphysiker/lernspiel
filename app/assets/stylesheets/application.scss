@@ -18,3 +18,39 @@ h1{
   -o-hyphens: auto;
   hyphens: auto;
 }
+
+.yellowish {
+  background: #F3E380;
+  background-image: -webkit-linear-gradient(top, #F3E380, #E7C700);
+  background-image: -moz-linear-gradient(top, #F3E380, #E7C700);
+  background-image: -ms-linear-gradient(top, #F3E380, #E7C700);
+  background-image: -o-linear-gradient(top, #F3E380, #E7C700);
+  background-image: linear-gradient(to bottom, #F3E380, #E7C700);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  -webkit-box-shadow: 4px 4px 10px #666666;
+  -moz-box-shadow: 4px 4px 10px #666666;
+  box-shadow: 4px 4px 10px #666666;
+  font-size: 20px;
+  padding: 40px 40px 40px 40px;
+  text-decoration: none;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+  border: none !important;
+}
+
+.table>thead>tr>td,
+.table>thead>tr>th {
+  border: none !important;
+}
+
+.triangle {
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+  height: 30px;
+  width: 30px;
+  transform: rotate(45deg);
+}

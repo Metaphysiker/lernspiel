@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365217fa-669b-42fc-9582-efc19dbf62aa" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_2.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_kproblemsintroduction.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_ethischetheorien.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_ethischetheorien.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_konsequentialismusubung.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_konsequentialismusubung.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/courses/ethics/_kbadactions.html.erb" afterPath="$PROJECT_DIR$/app/views/courses/ethics/_kbadactions.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -111,8 +105,8 @@
       <file leaf-file-name="_kbadactions.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_kbadactions.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="164" lean-forward="false" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -485,12 +479,12 @@
       <workItem from="1506507527943" duration="37000" />
       <workItem from="1506767023065" duration="105000" />
       <workItem from="1506767179268" duration="152000" />
-      <workItem from="1506838779750" duration="21639000" />
+      <workItem from="1506838779750" duration="21898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88110000" />
+    <option name="totallyTimeSpent" value="88369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="217" y="19" width="1523" height="1090" extended-state="0" />
@@ -905,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/courses/ethics/_kbadactions.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="164" lean-forward="false" selection-start-line="7" selection-start-column="164" selection-end-line="7" selection-end-column="164" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>

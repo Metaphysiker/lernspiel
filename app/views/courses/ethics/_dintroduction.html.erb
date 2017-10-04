@@ -1,63 +1,24 @@
 <div class="jumbotron text-justify yellowish">
-  <h1 class="display-3">Deontologie - eine Alternative?</h1>
+  <h1 class="display-3">Deontologie</h1>
   <br>
   <p>
     Die <b>Deontologie</b> unterscheidet sich vom Konsequentialismus darin, dass sie eine Handlung nicht danach beurteilt, welche Folgen sie hat,
-    sondern nach der Art der Handlung selbst.
+    sondern nach <b>der Art der Handlung selbst</b>.
   </p>
   <p>
     Wir erwarten von unseren Freunden, dass sie ihre Versprechen halten und von unseren Polizisten, dass sie nicht korrupt sind.
-    Nach der Deontologie ist zum Beispiel das Halten von Versprechen nicht deshalb gut, weil das Halte von Versprechen
-    immer gute Folgen hat, sondern weil das Halten eines Versprechen <b>intrinsisch gut ist</b>.
-    Eine Frage, die sich innerhalb der Deontologie stellt, ist welche Handlungen denn intrsinsisch gut oder schlecht sind.
-
-
+    Nach der Deontologie ist zum Beispiel das Halten von Versprechen nicht deshalb gut, weil das Halte von Versprechen gute Folgen hat,
+    sondern weil das Halten eines Versprechen <b>intrinsisch gut ist</b>.
   </p>
+  <p>
+    Eine Frage, die sich innerhalb der Deontologie stellt, ist welche Handlungen denn intrsinsisch gut und welche intrinsisch schlecht sind.
+  </p>
+  <p>
+    Eine mögliche Antwort ist diese: Eine Handlung ist intrinsisch schlecht, <b>wenn du nicht möchtest, dass man sie bei dir macht</b>.
+    Wir haben es nicht gerne, wenn wir angelogen werden und wir haben es nicht gerne, wenn wir bestohlen werden und dehalb sind Lügen und Stehlen intrinsisch schlecht.
+  </p>
+  <p>
+    Dieses Prinzip nennt man manchmal auch die <b>goldene Regel</b>: „Was du nicht willst, dass man dir tu, das füg auch keinem andern zu.“
+  </p>
+  <%= link_to "Weiter", ethics_path("dexercise"), class: "btn btn-primary btn-lg" %>
 </div>
-
-<div class="alert alert-info">
-  <strong>Aufgabe:</strong> Überlege dir, welche von den folgenden Handlungen im Sinne des <b>Utilitarismus'</b> sind und welche im Sinne der <b>Deontologie</b>.
-</div>
-<% i = 1 %>
-<% @deontvsutil.each do |array| %>
-    <div id="<%= i %>">
-      <div class="panel panel-default">
-        <div class="panel-heading"><%= array[0] %> </div>
-        <div class="panel-body">
-          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="ut" name="<%= i %>">Utilitarismus</label>
-          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="deon" name="<%= i %>">Deontologie</label>
-        </div>
-        <div class="alert alert-warning hidden" role="alert">
-          <%= array[2] %>
-        </div>
-      </div>
-    </div>
-    <% i = i + 1 %>
-<% end %>
-
-<%= link_to "Zur nächsten Übung", ethics_path(2), class: "btn btn-primary btn-lg" %>
-
-
-<script>
-    $(document).ready(function () {
-        $('.radio-inline').on('click', function () {
-            var number = $(this).attr("name");
-            var value = $("input[name='" + number + "']:checked").attr("value");
-            var rightanswer = $(this).attr("correctanswer");
-
-            if (value == rightanswer) {
-                console.log("RIGHT!");
-
-                $(this).parent().parent().removeClass().addClass("panel panel-success");
-                $(this).parent().parent().children(".alert").addClass("hidden");
-
-            } else {
-                console.log("FALSE!");
-
-                $(this).parent().parent().removeClass().addClass("panel panel-danger");
-                $(this).parent().parent().children(".alert").removeClass("hidden");
-            }
-
-        })
-    });
-</script>

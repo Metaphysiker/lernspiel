@@ -1,0 +1,46 @@
+<div class="alert alert-info">
+  <strong>Aufgabe:</strong> Überlege dir, welche von den folgenden Handlungen im Sinne des <b>Utilitarismus'</b> sind und welche im Sinne der <b>Deontologie</b>.
+</div>
+<% i = 1 %>
+<% @deontvsutil.each do |array| %>
+    <div id="<%= i %>">
+      <div class="panel panel-default">
+        <div class="panel-heading"><%= array[0] %> </div>
+        <div class="panel-body">
+          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="ut" name="<%= i %>">Utilitarismus</label>
+          <label class="radio-inline" name="<%= i %>" correctanswer="<%= array[1] %>"><input type="radio" value ="deon" name="<%= i %>">Deontologie</label>
+        </div>
+        <div class="alert alert-warning hidden" role="alert">
+          <%= array[2] %>
+        </div>
+      </div>
+    </div>
+    <% i = i + 1 %>
+<% end %>
+
+<%= link_to "Zur nächsten Übung", ethics_path(2), class: "btn btn-primary btn-lg" %>
+
+
+<script>
+    $(document).ready(function () {
+        $('.radio-inline').on('click', function () {
+            var number = $(this).attr("name");
+            var value = $("input[name='" + number + "']:checked").attr("value");
+            var rightanswer = $(this).attr("correctanswer");
+
+            if (value == rightanswer) {
+                console.log("RIGHT!");
+
+                $(this).parent().parent().removeClass().addClass("panel panel-success");
+                $(this).parent().parent().children(".alert").addClass("hidden");
+
+            } else {
+                console.log("FALSE!");
+
+                $(this).parent().parent().removeClass().addClass("panel panel-danger");
+                $(this).parent().parent().children(".alert").removeClass("hidden");
+            }
+
+        })
+    });
+</script>

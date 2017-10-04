@@ -30,11 +30,14 @@ class CoursesController < ApplicationController
     ]
 
     @deontvsutil = [
-        ["Statt seinem reichen Freund wie versprochen das Geld zurückzugeben, spendet Stefan es an arme Menschen.","ut", "Stefan versucht bedürftigen Menschen zu helfen und bricht dabei ein Versprechen. Er handelt utilitaristisch."],
-        ["Anna lügt ihre Lehrerin an, damit ihre Schulfreudin keine Strafe bekommt.","ut","Anna macht eine schlechte Tat, um ihrer Freundin zu helfen."],
-        ["Lorenz verarztet einen verwundeten, feindlichen Soldaten.", "deon", "Feindliche Soldaten"],
-        ["Fabian weigert sich, einen Terrorist zu foltern, um die von ihm versteckte Atombombe zu finden.", "deon", "Foltern"],
+        ["Statt seinem reichen Freund wie versprochen das Geld zurückzugeben, spendet Stefan es an bedürftige Menschen.","ut", "Stefan versucht bedürftigen Menschen zu helfen und bricht dabei ein Versprechen. Er handelt utilitaristisch."],
+        ["Lorenz verarztet einen verwundeten, feindlichen Soldaten.", "deon", "Da der Soldat Lorenz feindlich gesinnt ist, wäre es aus der Sicht von Lorenz besser, den feindlichen Soldaten zu töten, statt zu verarzten. Doch Lorenz scheint zu denken, dass es intrinsisch schlecht ist, einem verwundeten Menschen nicht zu helfen."],
+        ["Fabian weigert sich, einen Terrorist zu foltern, um die von ihm versteckte Bombe zu finden.", "deon", "Eine Bombe könnte viele Menschen töten und verletzen. Ein Utilitarist würde auf die Folgen der Handlung schauen und würde sagen, dass durch die Folter weniger Menschen leiden werden, als wenn nicht gefoltert wurde."],
         ["Lara "]
+    ]
+
+    @conflicts = [
+        ["Anna lügt ihre Lehrerin an, damit ihre Schulfreudin keine Strafe bekommt.","ut","Anna macht eine schlechte Tat, um ihrer Freundin zu helfen."],
     ]
 
   end

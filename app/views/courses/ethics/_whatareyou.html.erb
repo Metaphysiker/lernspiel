@@ -16,6 +16,15 @@
     <% i = i + 1 %>
 <% end %>
 
+<div id="util" class="hidden">
+  <div class="panel panel-default">
+    <div class="panel-heading">Du bist Utilitarist! </div>
+    <div class="panel-body">
+      Ergebnis
+    </div>
+  </div>
+</div>
+
 <%= link_to "Weiter", ethics_path("kproblemsintroduction"), class: "btn btn-primary btn-lg" %>
 
 
@@ -30,6 +39,9 @@
             $('#' + currentnumber).fadeOut("slow", function(){
                 currentnumber = currentnumber + 1;
                 $('#' + currentnumber).fadeIn("slow").removeClass("hidden");
+                if(currentnumber === 4){
+                    $('#util').fadeIn("slow").removeClass("hidden");
+                }
             });
         });
     });

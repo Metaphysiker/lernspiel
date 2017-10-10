@@ -41,5 +41,11 @@ class CoursesController < ApplicationController
         ["Anna lügt ihre Lehrerin an, damit ihre Schulfreudin keine Strafe bekommt.","ut","Anna macht eine schlechte Tat, um ihrer Freundin zu helfen."],
     ]
 
+    @whatareyou = [
+        ["Würdest du einen Menschen umbringen, um 5 Menschen das Leben zu retten?", "Ja, ich würde dafür einen Menschen umbringen.", "Nein, ich würde dafür keinen Menschen umbringen.",[0,1]],
+        ["Würdest du lügen, um einen Streit zwischen deinen Freunden zu vermeiden?", "Ja, ich würde dafür lügen.", "Nein, ich würde meinen Freunden die Wahrheit sagen.",[0,1]],
+        ["Würdest du einen Lehrer bestechen, so dass ein unartiger Schüler schlechtere Noten bekommt?", "Antwort", "Antwort", [0,1]]
+    ]
+
   end
 end

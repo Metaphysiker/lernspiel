@@ -2,3 +2,35 @@
   <strong>Finde heraus, zu welcher ethischen Position du gehörst!</strong>
 </div>
 
+<% i = 1 %>
+<% @whatareyou.each do |array| %>
+    <div id="<%= i %>" class="hidden">
+      <div class="panel panel-default">
+        <div class="panel-heading"><%= array[0] %> </div>
+        <div class="panel-body">
+          <button type="button" name="<%= i %>" value="<%= array[3][0] %>" class="btn btn-primary btn-block"><%= array[1] %></button>
+          <button type="button" name="<%= i %>" value="<%= array[3][1] %>" class="btn btn-primary btn-block"><%= array[2] %></button>
+        </div>
+    </div>
+  </div>
+    <% i = i + 1 %>
+<% end %>
+
+<%= link_to "Weiter", ethics_path("kproblemsintroduction"), class: "btn btn-primary btn-lg" %>
+
+
+<script>
+    $(document).ready(function () {
+        var score = 0;
+        var currentnumber = 1;
+        $('#' + currentnumber).removeClass("hidden");
+
+        $('.btn-block').on('click', function (){
+            score = parseInt($(this).attr("value")) + score;
+            $('#' + currentnumber).fadeOut("slow", function(){
+                currentnumber = currentnumber + 1;
+                $('#' + currentnumber).fadeIn("slow").removeClass("hidden");
+            });
+        });
+    });
+</script>

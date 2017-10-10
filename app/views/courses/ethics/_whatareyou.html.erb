@@ -8,8 +8,8 @@
       <div class="panel panel-default">
         <div class="panel-heading"><%= array[0] %> </div>
         <div class="panel-body">
-          <button type="button" name="<%= i %>" value="<%= array[3][0] %>" class="btn btn-primary btn-block"><%= array[1] %></button>
-          <button type="button" name="<%= i %>" value="<%= array[3][1] %>" class="btn btn-primary btn-block"><%= array[2] %></button>
+          <button type="button" name="<%= i %>" value="<%= array[3][0] %>" class="btn btn-primary btn-block responsive-width"><%= array[1] %></button>
+          <button type="button" name="<%= i %>" value="<%= array[3][1] %>" class="btn btn-primary btn-block responsive-width"><%= array[2] %></button>
         </div>
     </div>
   </div>
@@ -20,12 +20,13 @@
   <div class="panel panel-default">
     <div class="panel-heading">Du bist Utilitarist! </div>
     <div class="panel-body">
-      Ergebnis
+      <p>Ergebnis</p>
+      <%= link_to "Weiter", ethics_path("tintroduction"), class: "btn btn-primary btn-lg" %>
     </div>
   </div>
 </div>
 
-<%= link_to "Weiter", ethics_path("kproblemsintroduction"), class: "btn btn-primary btn-lg" %>
+<%= link_to "Weiter", ethics_path("tintroduction"), class: "btn btn-primary btn-lg" %>
 
 
 <script>

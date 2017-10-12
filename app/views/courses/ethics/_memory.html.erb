@@ -5,8 +5,10 @@
 <div class="row">
 
   <% @memory.each do |card| %>
-      <div class="col-xs-12 col-sm-6 col-md-4" style="background-color: red;">
-            <%= card[0] %>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="yellowish buffer">
+          <%= card[0] %>
+        </div>
       </div>
   <% end %>
 

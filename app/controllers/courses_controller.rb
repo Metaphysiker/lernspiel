@@ -47,5 +47,21 @@ class CoursesController < ApplicationController
         ["Würdest du einen Lehrer bestechen, so dass ein unartiger Schüler schlechtere Noten bekommt?", "Antwort", "Antwort", [0,1]]
     ]
 
+    @memory = [
+        ["Würdest du einen Menschen umbringen, um 5 Menschen das Leben zu retten? Der Konsequentialismus impliziert, dass jede Ursache eine Wirkung haben muss. Der Konsequentialismus impliziert, dass jede Ursache eine Wirkung haben muss.", 1],
+        ["Konsequentialismus", 1],
+        ["Deontologie", 2],
+        ["Deontologie", 2],
+        ["Utilitarismus", 3],
+        ["Utilitarismus", 3],
+        ["Tugendethik", 4],
+        ["Tugendethik", 4],
+        ["Goldene Regel", 5],
+        ["Goldene Regel", 5],
+        ["Tugendhaft", 6],
+        ["Tugendhaft", 6]
+    ]
+
+    @memory = @memory.shuffle
   end
 end

@@ -48,15 +48,15 @@ class CoursesController < ApplicationController
     ]
 
     @memory = [
-        ["Würdest du einen Menschen umbringen, um 5 Menschen das Leben zu retten? Der Konsequentialismus impliziert, dass jede Ursache eine Wirkung haben muss. Der Konsequentialismus impliziert, dass jede Ursache eine Wirkung haben muss.", 1],
+        ["Ob eine Handlung gut oder schlecht ist, hängt von den Folgen ab, die eine Handlung nach sich zieht.", 1],
         ["Konsequentialismus", 1],
+        ["Ob eine Handlung gut oder schlecht ist, hängt von der Handlung selbst ab.", 2],
         ["Deontologie", 2],
-        ["Deontologie", 2],
+        ["Eine Handlung ist gut, wenn sie viel Glück produziert und schlecht, wenn sie viel Leid verursacht.", 3],
         ["Utilitarismus", 3],
-        ["Utilitarismus", 3],
+        ["Eine Person ist gut, wenn sie gerecht, tapfer, weise und gemässigt ist.", 4],
         ["Tugendethik", 4],
-        ["Tugendethik", 4],
-        ["Goldene Regel", 5],
+        ["Was du nicht willst, dass man dir tu, das füg auch keinem andern zu.", 5],
         ["Goldene Regel", 5],
         ["Tugendhaft", 6],
         ["Tugendhaft", 6]

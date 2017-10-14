@@ -13,7 +13,7 @@
           </div>
 
           <div class="back yellowish cardsize">
-            <%= card[1] %>
+            <%= card[0] %>
           </div>
 
         </div>
@@ -27,6 +27,7 @@
     $(document).ready(function() {
         var flippedcard1 = 0;
         var flippedcard2 = 0;
+        var score = 0;
 
         $('.flip').on('click', function (){
             var currentcard = $(this).attr("id");
@@ -52,6 +53,13 @@
                     $('#' + flippedcard1).children().removeClass('yellowish').addClass('greenish');
 
                     flippedcard1 = 0;
+                    score = score + 1;
+
+                    if(score === 6){
+                        swal({
+                            icon: "success"
+                        });
+                    }
 
                 } else {
                     flippedcard2 = currentcard;

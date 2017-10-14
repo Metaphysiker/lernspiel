@@ -5,15 +5,15 @@
 <div class="row">
   <% @memory.each do |card| %>
       <% i = i + 1 %>
-      <div class="col-xs-12 col-sm-6 col-md-4 buffer cardsize">
+      <div class="col-xs-6 col-sm-4 col-md-3 buffer cardsize">
         <div id="<%=i%>" value="<%=card[1]%>" class="flip cardsize">
 
-          <div class="front yellowish cardsize">
+          <div class="front yellowishcard cardsize">
 
           </div>
 
-          <div class="back yellowish cardsize">
-            <%= card[0] %>
+          <div class="back yellowishcard cardsize centered">
+            <h4><%= card[0] %></h4>
           </div>
 
         </div>
@@ -22,6 +22,9 @@
 
 </div>
 
+<div class="back centered" style="width: 100px; background-color: red;">
+  <h4>Konsequentialismus</h4>
+</div>
 
 <script>
     $(document).ready(function() {
@@ -40,7 +43,7 @@
                 flippedcard1 = 0;
                 flippedcard2 = 0;
 
-            }  else if($('#' + currentcard).children().hasClass('greenish')){
+            }  else if($('#' + currentcard).children().hasClass('greenishcard')){
                 console.log("nothing should happen");
             } else if((flippedcard1 > 0) && (flippedcard1 !== currentcard)) {
                 $('#' + currentcard).flip('toggle');
@@ -49,8 +52,8 @@
                     $('#' + currentcard).removeClass('flip');
                     $('#' + flippedcard1).removeClass('flip');
 
-                    $('#' + currentcard).children().removeClass('yellowish').addClass('greenish');
-                    $('#' + flippedcard1).children().removeClass('yellowish').addClass('greenish');
+                    $('#' + currentcard).children().removeClass('yellowishcard').addClass('greenishcard');
+                    $('#' + flippedcard1).children().removeClass('yellowishcard').addClass('greenishcard');
 
                     flippedcard1 = 0;
                     score = score + 1;
